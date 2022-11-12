@@ -1,0 +1,11 @@
+[Unit]
+Description=Python Hello LEDR Service
+
+[Service]
+User=root
+WorkingDirectory=/programs/
+ExecStart=python hello_world.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
