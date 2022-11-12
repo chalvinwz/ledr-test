@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! -d "/programs/" ]; then
   echo "creating directory.."
   sudo mkdir /programs/

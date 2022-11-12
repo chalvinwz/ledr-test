@@ -1,3 +1,5 @@
+#!/bin/bash
+
 FILENAME="data_$(date -u +"%Y-%m-%d_%H-%M")_UTC"
 
 if [ ! -d "Task6/Data/" ]; then
